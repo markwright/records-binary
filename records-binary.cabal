@@ -1,0 +1,30 @@
+Name:                records-binary
+Version:             0.1.0.0
+Synopsis:            Binary instances for records
+Description:         Binary instances for the extensible records package. 
+Homepage:            https://github.com/markwright/records-binary
+License:             BSD3
+License-file:        LICENSE
+Author:              Mark Wright
+Maintainer:          markwright@internode.on.net
+Stability:           experimental
+Copyright:           Copyright (c) Mark Wright 2011. All rights reserved.
+Category:            Records
+Build-type:          Simple
+Cabal-version:       >=1.2
+build-depends:       base >= 3 && <5
+source-repository    head
+  type:              git
+  location:          git://github.com/markwright/records-binary.git
+
+Library
+  Hs-Source-Dirs:    src
+  Build-depends:     base >= 3 && <5,
+                     haskell98,
+                     binary,
+                     kinds == 0.0.*,
+                     records == 0.1.*,
+                     type-functions == 0.2.*,
+                     records-typeable
+  Exposed-modules:   Data.Record.Binary
+  Exposed:           True
