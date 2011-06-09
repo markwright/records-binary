@@ -2,6 +2,7 @@ Name:                records-binary
 Version:             0.1.0.0
 Synopsis:            Binary instances for records
 Description:         Binary instances for the extensible records package. 
+
 Homepage:            https://github.com/markwright/records-binary
 License:             BSD3
 License-file:        LICENSE
