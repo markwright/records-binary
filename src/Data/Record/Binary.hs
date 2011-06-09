@@ -1,5 +1,8 @@
+-- Copyright (c) 2011, Mark Wright.  All rights reserved.
+
 {-# LANGUAGE FlexibleContexts, FlexibleInstances, TypeOperators #-}
 
+-- | Binary instances for Data.Record
 module Data.Record.Binary where
 
 import Data.Kind
